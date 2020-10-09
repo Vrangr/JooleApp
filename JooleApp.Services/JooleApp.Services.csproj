@@ -53,13 +53,23 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />
+    <Compile Include="Services\CategoryServices.cs" />
+    <Compile Include="Services\ICategoryServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\JooleApp.Domain\JooleApp.Domain.csproj">
+      <Project>{041D3111-BF28-44D5-B3D5-E14148565058}</Project>
+      <Name>JooleApp.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JooleApp.Repositories\JooleApp.Repositories.csproj">
+      <Project>{5bec38ab-e105-4f8b-a5dc-6a0af744eb73}</Project>
+      <Name>JooleApp.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

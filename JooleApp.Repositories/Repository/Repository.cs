@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 using JooleApp.Domain;
 using JooleApp.Repositories.Repository;
 
-namespace JooleApp.Repositories.Repositoty
+namespace JooleApp.Repositories.Repository
 {
 
 
-    class Repository<T> : IRepository<T> where T : BaseEntity
+    public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly JooleAppEntities _context;
         private DbSet<T> entities;

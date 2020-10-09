@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JooleApp.Repositories.Repository
 {
-    interface IRepository<T> where T : BaseEntity
+   public  interface IRepository<T> where T : BaseEntity
     {
         IEnumerable<T> GetAll();
 

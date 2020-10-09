@@ -16,13 +16,15 @@ namespace JooleApp.Domain
     public partial class JooleAppEntities : DbContext
     {
         public JooleAppEntities()
-            : base("MyConnection") //name=JooleAppEntities
+            : base("name=JooleAppEntities") 
         {
+            var a = Database.Connection.ConnectionString;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            base.OnModelCreating(modelBuilder);
+            
         }
     
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }

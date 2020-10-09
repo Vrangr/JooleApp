@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using JooleApp.Repositories.Repository;
+using JooleApp.Services.Services;
 
 namespace JooleApp
 {
@@ -27,7 +29,13 @@ namespace JooleApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSingleton(_ => Configuration.GetConnectionString("MyConnection"));
+            services.AddMvc();
+            //services.AddDbContext<JooleAppEntities>(options => options.UseSqlServer(Configuration.GetConnectionString("MyConnection")));
+
+            //services.AddSingleton(_ => Configuration.GetConnectionString("MyConnection"));
+            //services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            //services.AddTransient<ICategoryServices, CategoryServices>();
+            //add transient
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
