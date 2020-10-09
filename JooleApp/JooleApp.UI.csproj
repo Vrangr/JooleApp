@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JooleApp.Domain\JooleApp.Domain.csproj" />
+    <ProjectReference Include="..\JooleApp.Repositories\JooleApp.Repositories.csproj" />
+    <ProjectReference Include="..\JooleApp.Services\JooleApp.Services.csproj" />
+  </ItemGroup>
+
 </Project>

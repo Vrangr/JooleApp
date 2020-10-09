@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JooleApp.UI", "JooleApp.UI.csproj", "{B28AC5DF-20BA-4E40-A9D4-734CDB4B96FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JooleApp.Domain", "..\JooleApp.Domain\JooleApp.Domain.csproj", "{BEC4E99B-AB76-4D3B-A71B-85B428896DD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JooleApp.Domain", "..\JooleApp.Domain\JooleApp.Domain.csproj", "{041D3111-BF28-44D5-B3D5-E14148565058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JooleApp.Repository", "..\JooleApp.Repository\JooleApp.Repository.csproj", "{B6CE4E02-EB22-48B5-9518-FF0500EA36B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JooleApp.Repositories", "..\JooleApp.Repositories\JooleApp.Repositories.csproj", "{5BEC38AB-E105-4F8B-A5DC-6A0AF744EB73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JooleApp.Services", "..\JooleApp.Services\JooleApp.Services.csproj", "{5DB39055-DF5A-4D12-AA52-1DC16EF6A271}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JooleApp.Services", "..\JooleApp.Services\JooleApp.Services.csproj", "{4AB9547E-7C03-46A3-B439-675DB2B7F160}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{B28AC5DF-20BA-4E40-A9D4-734CDB4B96FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28AC5DF-20BA-4E40-A9D4-734CDB4B96FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B28AC5DF-20BA-4E40-A9D4-734CDB4B96FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BEC4E99B-AB76-4D3B-A71B-85B428896DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEC4E99B-AB76-4D3B-A71B-85B428896DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEC4E99B-AB76-4D3B-A71B-85B428896DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEC4E99B-AB76-4D3B-A71B-85B428896DD8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6CE4E02-EB22-48B5-9518-FF0500EA36B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6CE4E02-EB22-48B5-9518-FF0500EA36B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6CE4E02-EB22-48B5-9518-FF0500EA36B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6CE4E02-EB22-48B5-9518-FF0500EA36B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5DB39055-DF5A-4D12-AA52-1DC16EF6A271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DB39055-DF5A-4D12-AA52-1DC16EF6A271}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DB39055-DF5A-4D12-AA52-1DC16EF6A271}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DB39055-DF5A-4D12-AA52-1DC16EF6A271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041D3111-BF28-44D5-B3D5-E14148565058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041D3111-BF28-44D5-B3D5-E14148565058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041D3111-BF28-44D5-B3D5-E14148565058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041D3111-BF28-44D5-B3D5-E14148565058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEC38AB-E105-4F8B-A5DC-6A0AF744EB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEC38AB-E105-4F8B-A5DC-6A0AF744EB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEC38AB-E105-4F8B-A5DC-6A0AF744EB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEC38AB-E105-4F8B-A5DC-6A0AF744EB73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB9547E-7C03-46A3-B439-675DB2B7F160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB9547E-7C03-46A3-B439-675DB2B7F160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB9547E-7C03-46A3-B439-675DB2B7F160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB9547E-7C03-46A3-B439-675DB2B7F160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
